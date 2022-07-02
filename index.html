@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <div class="container">
+        <div class="settings">
+            <input type="color" class="colorPicker">
+            <input type="submit" class="btn" value="Pixel" id="pixel">
+            <input type="submit" class="btn" value="Clear" id="clear">
+            <ul class="toggle">
+                <li>
+                    <label for="color">Color</label>
+                    <input type="radio" class="radios" id="color" name="toggle">
+                </li>
+                <li>
+                    <label for="rainbow">Rainbow</label>
+                    <input type="radio" class="radios" id="rainbow" name="toggle">
+                </li>
+                <li>
+                    <label for="gray">Gray</label>
+                    <input type="radio" class="radios" id="gray" name="toggle">
+                </li>
+            </ul>
+        </div>
+        <div class="canvas-container">
+            <div class="canvas"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+	background: rgb(35, 35, 52);
+	color: #fff;
+	height: 97vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	min-height: 672px;
+	min-width: 1000px;
+	width: 63%;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5%;
+	box-sizing: border-box;
+	border: 2px solid white;
+}
+
+.canvas-container {
+	min-height: 564px;
+	height: 85%;
+	aspect-ratio: 1/1;
+	border: 2px solid white;
+	padding: 24px;
+	box-sizing: border-box;
+}
+
+.canvas {
+	width: 100%;
+	height: 100%;
+	background: rgb(97, 98, 104);
+}
+
+.settings {
+	min-width: 256px;
+	min-height: 564px;
+	width: 30%;
+	height: 85%;
+	border: 2px solid white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 24px;
+	box-sizing: border-box;
+}
