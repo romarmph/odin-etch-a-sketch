@@ -9,28 +9,32 @@
 </head>
 <body>
     <div class="container">
+        <h1 class="header">Etch-A-Sketch</h1>
         <div class="settings">
-            <input type="color" class="colorPicker">
+            <h2>Settings</h2>
+            <input type="color" class="colorPicker btn">
             <input type="submit" class="btn" value="Pixel" id="pixel">
             <input type="submit" class="btn" value="Clear" id="clear">
             <ul class="toggle">
                 <li>
+                    <input type="radio" class="radios" id="color" name="toggle" checked="checked" />
                     <label for="color">Color</label>
-                    <input type="radio" class="radios" id="color" name="toggle">
                 </li>
                 <li>
+                    <input type="radio" class="radios" id="rainbow" name="toggle" />
                     <label for="rainbow">Rainbow</label>
-                    <input type="radio" class="radios" id="rainbow" name="toggle">
                 </li>
                 <li>
+                    <input type="radio" class="radios" id="gray" name="toggle" />
                     <label for="gray">Gray</label>
-                    <input type="radio" class="radios" id="gray" name="toggle">
                 </li>
             </ul>
         </div>
         <div class="canvas-container">
+            <h2>Canvas</h2>
             <div class="canvas"></div>
         </div>
+        <div class="footer"><a href="https://github.com/romarmph/odin-etch-a-sketch" target=”_blank”>Created by: Romar Macaraeg</a></div>
     </div>
 
     <script src="script.js"></script>
